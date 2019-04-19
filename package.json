@@ -20,6 +20,8 @@
     "electron": "^4.1.4"
   },
   "dependencies": {
-    "fs": "0.0.1-security"
+    "electron-store": "^3.2.0",
+    "fs": "0.0.1-security",
+    "spectre.css": "^0.5.8"
   }
 }
