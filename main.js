@@ -51,7 +51,7 @@ function main () {
   ipcMain.on('delete-todo', (event, todo) => {
     const updatedTodos = todosData.deleteTodo(todo).todos
         
-    mainWindow.send('todos', updatedTOdos)
+    mainWindow.send('todos', updatedTodos)
   })
 }
 
